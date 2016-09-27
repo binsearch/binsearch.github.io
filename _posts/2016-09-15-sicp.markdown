@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  "SICP epiphany"
+title:  "SICP Epiphany"
 date:   2016-09-15 19:03:30 +0530
 categories: programming  
-unfinished: true
+unfinished: false 
 ---
 
-One of my professors told us that If we list all books about computer science in the order of their importance, SICP would be in the top 5. That is a huge claim. He doesn't usually exaggerate. It must be a great book. After 3 years I started reading it and right now I'm in the middle of the second chapter. The first chapter is not that mind-blowing. I was slightly disappointed. Though After reading a part of the second chapter, I am completely sold. Enough with the praise. Let's get to the details.
+One of my professors told us that If we list all books about computer science in the order of their importance, SICP would be in the top 5. That is a huge claim. 
+He doesn't usally exaggerate. So, SICP was in my to-read list for a long time. After 3 years I started reading it and right now I'm in the middle of the second chapter. 
+The first chapter is not that mind-blowing. I was disappointed. Though after reading a part of the second chapter, I am completely sold. 
+Enough with the praise. Let's get to the details.
 
 In lisp, `cons` is a way to bind two things together.
 For example,
@@ -25,7 +28,10 @@ you can then access the individual parts of a pair using
   > 3
 ```
 
-The description of `cons` suggests that it is a data structure. My feeling before reading SICP was that data is different from code. Or, a program is divided into data and functions. What if I want to write my own version of `cons` in scheme? I couldn't find an answer to this question. So, I looked it up in SICP. Lo and behold, epicness ensued.
+The description of `cons` suggests that it is a data structure. My feeling before 
+reading SICP was that data is different from code. Or, a program is divided into data and functions.
+What if I want to write my own version of `cons` in scheme? I couldn't find an 
+answer to this question. So, I looked it up in SICP. Lo and behold, epicness ensued.
 
 ```
   (define (cons x y)
@@ -39,7 +45,9 @@ The description of `cons` suggests that it is a data structure. My feeling befor
   (define (cdr z) (z 1))
 ```
 
-`cons` can be implemented as a function. A purely functional data structure. WoW. That is something. Since then, I have decided that I should read this amazing book. What came next is even more awesome. What if we can implement numbers as functions. The idea itself is mind-boggling.
+`cons` can be implemented as a function. A purely functional data structure. WoW. That is something. 
+Since then, I have decided that I should read this amazing book. What came next is even more awesome. 
+What if we can implement numbers as functions. The idea itself is mind-boggling.
 
 ```
   (define zero (lambda (f) (lambda (x) x)))
@@ -53,6 +61,7 @@ The description of `cons` suggests that it is a data structure. My feeling befor
     ((n inc) 0))
 ```
 
-The basic idea is that an integer `n` is implemented as the function  `(f (f (f ....(n times) x))..`
+The basic idea is to implement an integer `n` as the function  `(f (f (f ....(n times) x))..`
 I checked if my implementation is correct using the `print` function. 
-All this is present in the second chapter. This book is a cluster of epiphanies. Don't miss it.
+
+
