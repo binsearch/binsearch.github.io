@@ -17,3 +17,4 @@ github_username: binsearch
 
 # Build settings
 markdown: kramdown
+future: true

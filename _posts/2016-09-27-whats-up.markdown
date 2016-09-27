@@ -3,6 +3,7 @@ layout: post
 title: "What's Up" 
 date:   2016-09-28 19:03:30 +0530
 categories: life 
+unfinished: true
 ---
 
 Here I am looking at this blank screen and anxious about how to start this
@@ -22,4 +23,32 @@ suffice it to say I messed up. I am not even sure I did the wrong thing. There
 is just a real possiblity for my life to go through a big change in the coming
 month. 
 
-  
+So I have decided to run a small experiment. I will work like others and have
+a 9-5 routine and see if I am happy. It has been 11 days since the start of 
+experiment. 
+
+|------------+-----------------|
+| Day        | Feel            |
+|:----------:|:---------------:|
+| Friday     | gen happy       |
+|------------|-----------------|
+| Saturday   | happy           |
+|------------|-----------------|
+| Sunday     | happy * happy   |
+|------------|-----------------|
+| Monday     | peace + content |
+|------------|-----------------|
+| Tuesday    | neutral         |
+|------------|-----------------|
+| Wednesday  | mild bad day    |
+|------------|-----------------|
+| Thursday   | happy           |
+|------------|-----------------|
+| Friday     | happy           |
+|------------|-----------------|
+| Saturday   | neutral         |
+|------------|-----------------|
+| Sunday     | peace * peace   |
+|------------|-----------------|
+| Monday     | bad day         |
+|------------+-----------------| 
