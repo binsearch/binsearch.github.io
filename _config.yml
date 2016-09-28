@@ -18,3 +18,7 @@ github_username: binsearch
 # Build settings
 markdown: kramdown
 future: true
+
+# Google services
+google_analytics: UA-50160044-1 
+
