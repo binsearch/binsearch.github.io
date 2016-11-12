@@ -3,7 +3,7 @@ layout: post
 title: "What's Up" 
 date:   2016-09-28 19:03:30 +0530
 categories: life 
-unfinished: true
+unfinished: false
 ---
 
 Here I am looking at this blank screen and anxious about how to start this
@@ -43,7 +43,7 @@ experiment.
 | Wednesday  | mild bad day    |
 |------------|-----------------|
 | Thursday   | happy           |
-|------------|-----------------|
+##|------------|-----------------|
 | Friday     | happy           |
 |------------|-----------------|
 | Saturday   | neutral         |
@@ -56,17 +56,22 @@ experiment.
 The results so far indicate that I should work here for some more time, but
 I am gonna wait till the end of the month before making that decision. 
 
-##Love Pangs
+## Love Pangs
 Even If my routine here makes me happy, I have to think about my girlfriend.
 I am pretty sure I will be more happy if the both of us live in the same
 city. 
 
-##Father and Mother
+## Father and Mother
 My dad wants me to work as you can probably guess. He just wants a normal son,
 I think. Every time I say that I am gonna quit and just start farming or something,
 he carefully steps around it and talks about something else. clever guy. My mom is more
 assertive in telling me to work. 
 
-##Friends
+## Friends
 I have all my friends here in mumbai. So If I move to bangalore, I will miss
 them. That's a pretty big sacrifice which I 'll have to think more about. 
+
+#### update - november 12
+
+I am still working for that startup. I haven't quit. I have given up hope
+on this post. This won't help me reach a conclusive decision. So, bye.
