@@ -4,7 +4,6 @@ title: Keystone Habits
 date: '2016-11-12 19:03:30 +0530'
 categories: habits
 unfinished: true
-published: true
 ---
 
 For the last few years, I spent a lot of my mental bandwidth on figuring out *how to be happy*. In the beginning, I wasn't very successful in my search. I turned towards self helps books, started reading '7 habits of highly effective teenagers', books by Norman Vincent Pele[TK] and all sorts of crazy stuff. The problem with self help books is that they have
@@ -31,6 +30,9 @@ While exploring my consciousness one day, I had this thought that the amount of 
 
 On an otherwise uneventful day, while I was browsing the internet, I stumbled upon the concept of 'keystone habits'. A set of 5 habits which when acquired helps you acquire other good habits unconsciously. In other words, A set of 5 habits which guarantee you happiness. BAM. That was the epiphany I had been waiting for all these years.
 
+## What's the big deal?
+These habits are special because they help you acquire other good habits(which are not in the list, like getting enough sleep). It's not even help, once you acquire these habits the others start forming without you even noticing. It's like you are on auto pilot, acquiring new habits and reaching new levels of happiness. 
+
 ## What are they?
 here is the list of the 5 keystone habits in no particular order
 
@@ -44,4 +46,4 @@ I do journalling in the form of 'morning pages'. I write 750 words everyday in t
 
 The most important part of the puzzle fell into place. Now we need help in forming habits. Anyone trying to develop a gym habit will tell you how hard it is. The key here is to start small. Don't go for a complete overhaul of your lifestyle. If you want to start meditating, just do it for 5 minutes daily. start small. Don't worry about the size of your task. Don't think that 5 minutes of meditation is nothing and you should do more. Be patient. These small tasks will add up over time. It's like filling a bucket in a small stream. The progress maybe slow, but given enough time you will have lots of water. 
 
-I can't overstate the importance of this discovery in my life. These 5 habits can act as a kernel around which you build your happy life.
+I can't overstate the importance of this discovery in my life. These 5 habits can act as a kernel around which you build your happy life
