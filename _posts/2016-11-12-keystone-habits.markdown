@@ -3,7 +3,7 @@ layout: post
 title: 'Keystone Habits: simple kernel for life'
 date: '2016-11-12 19:03:30 +0530'
 categories: habits
-unfinished: true
+unfinished: false
 published: true
 ---
 
