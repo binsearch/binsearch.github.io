@@ -22,3 +22,4 @@ future: true
 # Google services
 google_analytics: UA-50160044-1 
 
+include: .well-known
