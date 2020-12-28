@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+<title>Blog</title>
+<link>https://binsearch.github.io/</link>
+<description>Grow with Technology</description>
+
+<item>
+<title>Keystone Habits: simple kernel for life</title>
+<link>https://binsearch.github.io/blog/keystone-habits/</link>
+<description>
+<![CDATA[
+<p>
+For the last few years, I spent a lot of my mental bandwidth on figuring out how to be happy . In the beginning, I&nbsp;<a href="https://binsearch.github.io/blog/keystone-habits/">...</a>
+</p>
+<p><a href="https://binsearch.github.io/blog/keystone-habits/">Read More</a></p>
+]]>
+</description>
+<pubDate>Sat, 12 Nov 2016 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>SICP Epiphany</title>
+<link>https://binsearch.github.io/blog/sicp/</link>
+<description>
+<![CDATA[
+<p>
+One of my professors told us that If we list all books about computer science in the order of their importance, SICP would be in&nbsp;<a href="https://binsearch.github.io/blog/sicp/">...</a>
+</p>
+<p><a href="https://binsearch.github.io/blog/sicp/">Read More</a></p>
+]]>
+</description>
+<pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Pawna Lake</title>
+<link>https://binsearch.github.io/blog/pawna-lake/</link>
+<description>
+<![CDATA[
+<p>
+When my friends told me that we will be going to Pawna lake on the weekend, I was pretty excited. I don't travel. This was&nbsp;<a href="https://binsearch.github.io/blog/pawna-lake/">...</a>
+</p>
+<p><a href="https://binsearch.github.io/blog/pawna-lake/">Read More</a></p>
+]]>
+</description>
+<pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+</item>
+
+
+</channel>
+</rss>

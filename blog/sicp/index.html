@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SICP Epiphany - binsearch</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body id="sicp">
+
+<nav>
+<section>
+    <span class="home">
+        <a href="/">Home</a>
+    </span>
+    <span class="links">
+        <a href="/blog/">Blog</a>
+        <a href="/about/">About</a>
+    </span>
+</section>
+</nav>
+
+<main>
+<article>
+<h1><a href="/blog/sicp/">SICP Epiphany</a></h1>
+<p class="meta">Published on 2016-09-15 by <b>binsearch</b></p>
+<p>One of my professors told us that If we list all books about computer science in the order of their importance, SICP would be in the top 5. That is a huge claim.
+He doesn't usally exaggerate. So, SICP was in my to-read list for a long time. After 3 years I started reading it and right now I'm in the middle of the second chapter.
+The first chapter is not that mind-blowing. I was disappointed. Though after reading a part of the second chapter, I am completely sold.
+Enough with the praise. Let's get to the details.</p>
+<p>In lisp, <code>cons</code> is a way to bind two things together.
+For example,</p>
+<pre><code>  (cons 2 3) 
+</code></pre>
+<p>binds <code>2</code> and <code>3</code> together into a pair.
+you can then access the individual parts of a pair using</p>
+<pre><code>  (car (cons 2 3))
+  &gt; 2
+  (cdr (cons 2 3))
+  &gt; 3
+</code></pre>
+<p>The description of <code>cons</code> suggests that it is a data structure. My feeling before
+reading SICP was that data is different from code. Or, a program is divided into data and functions.
+What if I want to write my own version of <code>cons</code> in scheme? I couldn't find an
+answer to this question. So, I looked it up in SICP. Lo and behold, epicness ensued.</p>
+<pre><code>  (define (cons x y)
+    (define (dispatch m)
+      (cond ((= m 0) x)
+            ((= m 1) y)
+            (else (error &quot;Argument not 0 or 1 -- CONS&quot; m))))
+    dispatch)
+
+  (define (car z) (z 0))
+  (define (cdr z) (z 1))
+</code></pre>
+<p><code>cons</code> can be implemented as a function. A purely functional data structure. WoW. That is something.
+Since then, I have decided that I should read this amazing book. What came next is even more awesome.
+What if we can implement numbers as functions. The idea itself is mind-boggling.</p>
+<pre><code>  (define zero (lambda (f) (lambda (x) x)))
+  (define (add-1 n)
+    (lambda (f) (lambda (x) (f ((n f) x)))))
+  (define one (lambda (f) (lambda (x) (f x))))
+  (define two (lambda (f) (lambda (x) (f (f x)))))
+  (define (plus a b)
+    (lambda (f) (lambda (x) ((b f) ((a f) x)))))
+  (define (print n)
+    ((n inc) 0))
+</code></pre>
+<p>The basic idea is to implement an integer <code>n</code> as the function  <code>(f (f (f ....(n times) x))..</code>
+I checked if my implementation is correct using the <code>print</code> function.</p>
+
+</article>
+
+</main>
+
+<footer>
+<section>
+<p>&copy; 2020 binsearch</p>
+<p>
+    <a href="https://github.com/binsearch">GitHub</a>
+</p>
+</section>
+</footer>
+
+</body>
+</html>
