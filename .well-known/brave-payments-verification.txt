@@ -1,4 +1,0 @@
-This is a Brave Payments publisher verification file.
-
-Domain: binsearch.github.io
-Token: 5ec90d844c5b3184dcc26fa4f38aee01ce10caaa160b37fb95f5fe140ba99598
